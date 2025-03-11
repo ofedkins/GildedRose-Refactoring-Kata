@@ -77,8 +77,6 @@ class GildedRoseTest {
         assertEquals(0, app.items[0].quality);
     }
 
-    // below can useful for next adjustments of com.gildedrose.GildedRose.updateQuality
-
     // 'Aged Brie'
     @Test
     void testAgedBrieItemAtTheEndOfDay() {
