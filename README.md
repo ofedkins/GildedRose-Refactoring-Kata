@@ -51,3 +51,8 @@ is also really useful for practicing writing good tests using different framewor
 Contributions are encouraged! You could add a translations of the specification
 in another language or a new starting point for your favorite programming
 language. Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for more details.
+
+## Useful tips
+
+Alternative for code cloning can be used : GitHub Importer by `Import repository`.
+GitHub personal access token (classic) for IDE should have only `repo` scope.

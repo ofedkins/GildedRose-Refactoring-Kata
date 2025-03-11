@@ -28,3 +28,7 @@ The other relies on your CLASSPATH being set correctly in [environment.gr](../te
 
     executable:com.gildedrose.TexttestFixture
     interpreter:java
+
+## Useful tips
+
+Use java corretto 11 + language level 8 (from IDE) because Gradle 8.11 doesn't support java 8 - `Java/gradle/wrapper/gradle-wrapper.properties` contains Gradle 8.11 but `Java/build.gradle` and `Java/pom.xml` contains java `1.8`.

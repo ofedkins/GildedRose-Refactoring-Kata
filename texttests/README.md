@@ -81,3 +81,6 @@ It's basically the same idea as "assertEquals(expected, actual)" in a unit test,
 
 Typically a piece of legacy code may not produce suitable textual output from the start, so you may need to modify it before you can write your first text-based approval test. One way to do that is to write a "main" method that executes the code and prints out what the result is afterwards. Each language version has implemented a texttest 'fixture' that does this. It runs the GildedRose 'update_quality' method once each day for 30 days, printing the item state each day.
 
+## Useful tips
+
+For Python can be useful command: `sudo ln -sfn /opt/homebrew/bin/python3 /usr/local/bin/python`.
